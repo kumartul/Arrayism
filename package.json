@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Atul-Kumar-Official/Array.js/issues"
   },
-  "homepage": "https://github.com/Atul-Kumar-Official/Array.js#readme"
+  "homepage": "https://github.com/Atul-Kumar-Official/Array.js#readme",
+  "dependencies": {
+    "babel": "6.23.0",
+    "jest": "27.2.2"
+  }
 }
