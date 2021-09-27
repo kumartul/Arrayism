@@ -1,0 +1,23 @@
+{
+  "name": "arrayjs",
+  "version": "0.0.1",
+  "description": "Start to love arrays",
+  "main": "array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atul-Kumar-Official/Array.js.git"
+  },
+  "keywords": [
+    "array",
+    "library"
+  ],
+  "author": "Atul Kumar <akumarofficial4224@gmail.com> (https://www.github.com/Atul-Kumar-Official)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atul-Kumar-Official/Array.js/issues"
+  },
+  "homepage": "https://github.com/Atul-Kumar-Official/Array.js#readme"
+}
