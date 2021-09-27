@@ -1,0 +1,6 @@
+# Directories
+node_modules
+
+# Files
+*.log
+package-lock.json
