@@ -1,14 +1,14 @@
 {
-  "name": "arrayjs",
-  "version": "0.0.2",
+  "name": "arrayism",
+  "version": "0.0.1",
   "description": "Start to love arrays",
-  "main": "array.js",
+  "main": "arrayism.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Atul-Kumar-Official/Array.js.git"
+    "url": "git+https://github.com/Atul-Kumar-Official/Arrayism.git"
   },
   "keywords": [
     "array",
@@ -17,9 +17,9 @@
   "author": "Atul Kumar <akumarofficial4224@gmail.com> (https://www.github.com/Atul-Kumar-Official)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Atul-Kumar-Official/Array.js/issues"
+    "url": "https://github.com/Atul-Kumar-Official/Arrayism/issues"
   },
-  "homepage": "https://github.com/Atul-Kumar-Official/Array.js#readme",
+  "homepage": "https://github.com/Atul-Kumar-Official/Arrayism#readme",
   "dependencies": {
     "babel": "6.23.0",
     "jest": "27.2.2"
