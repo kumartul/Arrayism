@@ -33,6 +33,11 @@ function isDecimal(value){
     return ((Math.floor(value) - value) !== 0) ? true : false;
 }
 
+// Function: Checks if the value is a boolean or not
+function isBool(value){
+    return typeof value === 'boolean';
+}
+
 module.exports.isNumber = isNumber;
 module.exports.isPositive = isPositive;
 module.exports.isNegative = isNegative;
