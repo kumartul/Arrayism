@@ -6,6 +6,7 @@ const pollute = require('./src/pollute.js');
 const unique = require('./src/unique.js');
 const remove = require('./src/remove.js');
 const math = require('./src/math.js');
+const nth = require('./src/nth.js');
 
 class Arrayism {
     constructor() {
@@ -15,11 +16,13 @@ class Arrayism {
         this.clean = clean;
         this.pollute = pollute;
         this.unique = unique;
-        this.remove = remove;
+        this.remove = remove.remove;
+        this.removeMany = remove.removeMany;
         this.sum = math.sum;
         this.difference = math.difference;
         this.product = math.product;
         this.quotient = math.quotient;
+        this.nth = nth;
     }
 }
 
