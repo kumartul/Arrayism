@@ -22,6 +22,8 @@ function type(array){
                     return "Symbol Array";
                 case "object":
                     return "Object Array";
+                case "string":
+                    return "String Array";
             }
         }
         else{
