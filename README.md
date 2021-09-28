@@ -1,2 +1,2 @@
-# Array.js
+# Arrayism
 Start to love ❤️  arrays
