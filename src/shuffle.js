@@ -1,13 +1,14 @@
 // Function: Shuffles an array
 function shuffle(array){
-    if(Array.isArray(array)){
-        for(let i = array.length - 1; i > 0; i--){
-            let temp =  array[i];
+    let shuffledArr = [...array];
+    if(Array.isArray(shuffledArr)){
+        for(let i = shuffledArr.length - 1; i > 0; i--){
+            let temp =  shuffledArr[i];
             let randomIndex = Math.floor(Math.random() * (i + 1));
-            array[i] = array[randomIndex];
-            array[randomIndex] = temp;
+            shuffledArr[i] = shuffledArr[randomIndex];
+            shuffledArr[randomIndex] = temp;
         }
-        return array;
+        return shuffledArr;
     }
     else{
         throw new TypeError("Failed to execute 'shuffle': Argument must be an array");

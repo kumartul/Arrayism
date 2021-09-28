@@ -1,17 +1,18 @@
 // Functions: Returns a piece from an array
 function getPiece(array, from, to){
+    let copiedArr = [...array];
     if(Array.isArray(array)){
-        if(!array.includes(from)){
+        if(!copiedArr.includes(from)){
             throw new RangeError(`Failed to execute 'getPiece': ${from} is not an element of the array`);
         }
-        if(!array.includes(to)){
+        if(!copiedArr.includes(to)){
             throw new RangeError(`Failed to execute 'getPiece': ${to} is not an element of the array`);
         }
 
-        let start = array.indexOf(from);
-        let end = array.indexOf(to);
+        let start = copiedArr.indexOf(from);
+        let end = copiedArr.indexOf(to);
 
-        return array.splice(start, end);
+        return copiedArr.splice(start, end);
     }
     else{
         throw new TypeError("Failed to execute 'getPiece': First argument must be an array");

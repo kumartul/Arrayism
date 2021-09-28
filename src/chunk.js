@@ -13,7 +13,7 @@ function chunk(array, size){
                 if(count < array.length){
                     start = count;
                     end = count + size;
-                    chunkedArray = [...chunkedArray, array.slice(start, end)]
+                    chunkedArray = [...chunkedArray, array.slice(start, end)];
                 }
             }
             return chunkedArray;
