@@ -12,6 +12,7 @@ const shuffle = require('./src/shuffle.js');
 const sort = require('./src/sort.js');
 const insert = require('./src/insert.js');
 const count = require('./src/count.js');
+const type = require('./src/type.js');
 
 class Arrayism {
     constructor() {
@@ -35,6 +36,7 @@ class Arrayism {
         this.insertBefore = insert.insertBefore;
         this.insertAfter = insert.insertAfter;
         this.count = count;
+        this.type = type;
     }
 }
 
