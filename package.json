@@ -20,11 +20,7 @@
     "url": "https://github.com/Atul-Kumar-Official/Arrayism/issues"
   },
   "homepage": "https://github.com/Atul-Kumar-Official/Arrayism#readme",
-  "dependencies": {
-    "babel": "6.23.0"
-  },
   "devDependencies": {
-    "babel-cli": "6.26.0",
-    "jest": "27.2.2"
+    "jest": "27.2.3"
   }
 }
