@@ -45,3 +45,4 @@ module.exports.isObj = isObj;
 module.exports.isFunc = isFunc;
 module.exports.isStr = isStr;
 module.exports.isDecimal = isDecimal;
+module.exports.isBool = isBool;
