@@ -4,7 +4,8 @@
   "description": "Start to love arrays",
   "main": "arrayism.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "babel --out-dir dist src --ignore *.test.js src"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "babel": "6.23.0"
   },
   "devDependencies": {
+    "babel-cli": "6.26.0",
     "jest": "27.2.2"
   }
 }
