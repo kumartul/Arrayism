@@ -10,6 +10,7 @@ const nth = require('./src/nth.js');
 const getPiece = require('./src/getpiece.js');
 const shuffle = require('./src/shuffle.js');
 const sort = require('./src/sort.js');
+const insert = require('./src/insert.js');
 
 class Arrayism {
     constructor() {
@@ -30,6 +31,8 @@ class Arrayism {
         this.shuffle = shuffle;
         this.asort = sort.asort;
         this.dsort = sort.dsort;
+        this.insertBefore = insert.insertBefore;
+        this.insertAfter = insert.insertAfter;
     }
 }
 
