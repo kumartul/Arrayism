@@ -20,4 +20,19 @@ function remove(array, value, removeAll=true){
     }
 }
 
-module.exports = remove;
+function removeMany(array, values){
+    if(Array.isArray(array)){
+        if(Array.isArray(values)){
+            return array.filter(value => !values.includes(value));
+        }
+        else{
+            throw new TypeError("Failed to execute 'removeMany': Please pass an array of values that you want to remove");
+        }
+    }
+    else{
+        throw new TypeError("Failed to execute 'removeMany': First argument must be an array")
+    }
+}
+
+module.exports.remove = remove;
+module.exports.removeMany = removeMany;
