@@ -1,4 +1,4 @@
-const chunk = require('../src/chunk.js');
+const chunk = require('../../src/chunk.js');
 
 test('returns two array chunks of equal length', () => {
     expect(chunk([1, 2, 3, 4], 2)).toEqual([[1, 2], [3, 4]]);
