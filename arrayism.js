@@ -7,6 +7,7 @@ const unique = require('./src/unique.js');
 const remove = require('./src/remove.js');
 const math = require('./src/math.js');
 const nth = require('./src/nth.js');
+const getPiece = require('./src/getpiece.js');
 
 class Arrayism {
     constructor() {
@@ -23,6 +24,7 @@ class Arrayism {
         this.product = math.product;
         this.quotient = math.quotient;
         this.nth = nth;
+        this.getPiece = getPiece;
     }
 }
 
