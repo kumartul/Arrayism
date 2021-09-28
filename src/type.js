@@ -1,5 +1,3 @@
-const is = require('./utils/is.js');
-
 // Function: Returns the type of array
 function type(array){
     if(Array.isArray(array)){
