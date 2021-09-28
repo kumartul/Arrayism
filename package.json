@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/Atul-Kumar-Official/Arrayism#readme",
   "dependencies": {
-    "babel": "6.23.0",
+    "babel": "6.23.0"
+  },
+  "devDependencies": {
     "jest": "27.2.2"
   }
 }
