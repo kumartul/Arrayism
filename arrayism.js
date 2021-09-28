@@ -8,6 +8,8 @@ const remove = require('./src/remove.js');
 const math = require('./src/math.js');
 const nth = require('./src/nth.js');
 const getPiece = require('./src/getpiece.js');
+const shuffle = require('./src/shuffle.js');
+const sort = require('./src/sort.js');
 
 class Arrayism {
     constructor() {
@@ -25,6 +27,9 @@ class Arrayism {
         this.quotient = math.quotient;
         this.nth = nth;
         this.getPiece = getPiece;
+        this.shuffle = shuffle;
+        this.asort = sort.asort;
+        this.dsort = sort.dsort;
     }
 }
 
