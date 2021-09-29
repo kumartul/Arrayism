@@ -29,6 +29,7 @@ class Arrayism {
         this.difference = math.difference;
         this.product = math.product;
         this.quotient = math.quotient;
+        this.average = math.average;
         this.nth = nth;
         this.getPiece = getPiece;
         this.shuffle = shuffle;
