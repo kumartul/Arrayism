@@ -15,3 +15,8 @@ test('multiplies all the elements of an array', () => {
 test('divides all the elements of an array from the previous element', () => {
     expect(math.quotient([1, 2, 4])).toBe(0.125);
 });
+
+test('finds the average of all the elements of the array', () => {
+    expect(math.average([1, 4, 9, 16, 25])).toBe(11);
+});
+
