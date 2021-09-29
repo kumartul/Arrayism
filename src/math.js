@@ -42,7 +42,19 @@ function quotient(array){
     } 
 }
 
+// Function: Finds the average of all the values of the array
+function average(array){
+    let copiedArr = [...array];
+    if(Array.isArray(array)){
+        return sum(copiedArr)/array.length;
+    }
+    else{
+        throw new TypeError("Failed to exeucte 'average': Argument must be an array");
+    }
+}
+
 module.exports.sum = sum;
 module.exports.difference = difference;
 module.exports.product = product;
 module.exports.quotient = quotient;
+module.exports.average = average;
