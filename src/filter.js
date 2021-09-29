@@ -4,21 +4,21 @@ function filter(array, dataType){
     if(Array.isArray(array)){
         switch(typeof dataType){
             case 'bigint':
-                return filterArr.reduce(value => typeof value === 'bigint');
+                return filterArr.filter(value => typeof value === 'bigint');
             case 'boolean':
-                return filterArr.reduce(value => typeof value === 'boolean');
+                return filterArr.filter(value => typeof value === 'boolean');
             case 'function':
-                return filterArr.reduce(value => typeof value === 'function');
+                return filterArr.filter(value => typeof value === 'function');
             case 'number':
-                return filterArr.reduce(value => typeof value === 'number');
+                return filterArr.filter(value => typeof value === 'number');
             case 'object':
-                return filterArr.reduce(value => typeof value === 'object' && value !== null && !Array.isArray(value));
+                return filterArr.filter(value => typeof value === 'object' && value !== null && !Array.isArray(value));
             case 'string':
-                return filterArr.reduce(value => typeof value === 'string');
+                return filterArr.filter(value => typeof value === 'string');
             case 'symbol':
-                return filterArr.reduce(value => typeof value === 'symbol');
+                return filterArr.filter(value => typeof value === 'symbol');
             case 'undefined':
-                return filterArr.reduce(value => typeof value === 'undefined');
+                return filterArr.filter(value => typeof value === 'undefined');
             default: 
                 throw new TypeError("Failed to execute 'filter': Invalid data type");
         }
