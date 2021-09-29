@@ -2,7 +2,8 @@
 function filter(array, dataType){
     let filterArr = [...array];
     if(Array.isArray(array)){
-        switch(typeof dataType){
+        console.log(dataType);
+        switch(dataType){
             case 'bigint':
                 return filterArr.filter(value => typeof value === 'bigint');
             case 'boolean':
