@@ -10,7 +10,8 @@ npm install --save arrayism
 
 In Node.js:
 ```bash
-const asm = require('arrayism');
+const Arrayism = require('arrayism');
+const asm = new Arrayism();
 ```
 
 To run the tests:
