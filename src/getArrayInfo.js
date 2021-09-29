@@ -4,7 +4,7 @@ const clean = require('./clean.js');
 const type = require('./type.js');
 
 // Function: Returns an object showing a detailed information about the array
-function getDataInfo(array){
+function getArrayInfo(array){
     if(Array.isArray(array)){
         let copiedArr = [...array];
         const info = {
@@ -31,4 +31,4 @@ function getDataInfo(array){
     }
 }
 
-module.exports = getDataInfo;
+module.exports = getArrayInfo;
