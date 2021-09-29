@@ -14,6 +14,7 @@ const insert = require('./src/insert.js');
 const count = require('./src/count.js');
 const type = require('./src/type.js');
 const replace = require('./src/replace.js');
+const filter = require('./src/filter.js');
 
 class Arrayism {
     constructor() {
@@ -40,6 +41,7 @@ class Arrayism {
         this.count = count;
         this.type = type;
         this.replace = replace;
+        this.filter = filter;
     }
 }
 
