@@ -16,6 +16,7 @@ const type = require('./src/type.js');
 const replace = require('./src/replace.js');
 const filter = require('./src/filter.js');
 const getArrayInfo = require('./src/getArrayInfo.js');
+const flatten = require('./src/flat.js');
 
 class Arrayism {
     constructor() {
@@ -44,6 +45,7 @@ class Arrayism {
         this.replace = replace;
         this.filter = filter;
         this.getArrayInfo = getArrayInfo;
+        this.flatten = flatten;
     }
 }
 
