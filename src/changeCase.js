@@ -21,7 +21,7 @@ function changeCase(array, textCase){
                 for(let i = 0; i < copiedArr.length; i++){
                     if(typeof copiedArr[i] === 'string'){
                         let firstChar = copiedArr[i][0].toUpperCase();
-                        let newElem = firstChar + copiedArr[i].slice(1, ).toLowerCase();
+                        let newElem = copiedArr[i].slice(1,).toLowerCase();
                         copiedArr[i] = firstChar + newElem;
                     }
                 }
