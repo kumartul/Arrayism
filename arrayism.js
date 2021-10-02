@@ -22,6 +22,7 @@ const changeCase = require('./src/changeCase.js');
 const walk = require('./src/walk.js');
 const clear = require('./src/clear.js');
 const join = require('./src/join.js');
+const distance = require('./src/distance.js');
 
 class Arrayism {
     constructor() {
@@ -59,6 +60,7 @@ class Arrayism {
         this.clear = clear;
         this.join = join.join;
         this.joinDiff = join.joinDiff;
+        this.distance = distance;
     }
 }
 
