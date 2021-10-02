@@ -6,4 +6,5 @@ docs
 
 # Files
 *.log
+*.txt
 package-lock.json
