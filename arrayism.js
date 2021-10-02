@@ -23,6 +23,7 @@ const walk = require('./src/walk.js');
 const clear = require('./src/clear.js');
 const join = require('./src/join.js');
 const distance = require('./src/distance.js');
+const swap = require('./src/swap.js');
 
 class Arrayism {
     constructor() {
@@ -61,6 +62,7 @@ class Arrayism {
         this.join = join.join;
         this.joinDiff = join.joinDiff;
         this.distance = distance;
+        this.swap = swap;
     }
 }
 
