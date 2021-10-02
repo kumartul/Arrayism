@@ -6,11 +6,11 @@ function distance(array, elem1, elem2){
                 return array.indexOf(elem2) - array.indexOf(elem1);
             }
             else{
-                throw new Error(`Failed to execute 'distance': The array doesn't contains ${elem2}`);
+                throw new RangeError(`Failed to execute 'distance': The array doesn't contains ${elem2}`);
             }
         }
         else{
-            throw new Error(`Failed to execute 'distance': The array doesn't contains ${elem1}`);
+            throw new RangeError(`Failed to execute 'distance': The array doesn't contains ${elem1}`);
         }
     }
     else{
