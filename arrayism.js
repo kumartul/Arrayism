@@ -17,6 +17,7 @@ const replace = require('./src/replace.js');
 const filter = require('./src/filter.js');
 const getArrayInfo = require('./src/getArrayInfo.js');
 const flatten = require('./src/flat.js');
+const random = require('./src/random.js');
 
 class Arrayism {
     constructor() {
@@ -46,6 +47,7 @@ class Arrayism {
         this.filter = filter;
         this.getArrayInfo = getArrayInfo;
         this.flatten = flatten;
+        this.random = random;
     }
 }
 
