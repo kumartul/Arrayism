@@ -53,8 +53,30 @@ function average(array){
     }
 }
 
+// Function: Finds the minimum value from the array
+function min(array){
+    if(Array.isArray(array)){
+        return Math.min(...array);
+    }
+    else{
+        throw new TypeError("Failed to execute 'min': Argument must be an array");
+    }
+}
+
+// Function: Finds the maximum value from the array
+function max(array){
+    if(Array.isArray(array)){
+        return Math.max(...array);
+    }
+    else{
+        throw new TypeError("Failed to execute 'max': Argument must be an array");
+    }
+}
+
 module.exports.sum = sum;
 module.exports.difference = difference;
 module.exports.product = product;
 module.exports.quotient = quotient;
 module.exports.average = average;
+module.exports.min = min;
+module.exports.max = max;
