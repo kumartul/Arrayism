@@ -20,3 +20,10 @@ test('finds the average of all the elements of the array', () => {
     expect(math.average([1, 4, 9, 16, 25])).toBe(11);
 });
 
+test('finds the minimum value from the array', () => {
+    expect(math.min([1, -5, 4])).toBe(-5);
+});
+
+test('finds the maximum value from the array', () => {
+    expect(math.max([1, -5, 4])).toBe(4);
+});
