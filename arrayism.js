@@ -18,6 +18,9 @@ const filter = require('./src/filter.js');
 const getArrayInfo = require('./src/getArrayInfo.js');
 const flatten = require('./src/flat.js');
 const random = require('./src/random.js');
+const changeCase = require('./src/changeCase.js');
+const walk = require('./src/walk.js');
+const clear = require('./src/clear');
 
 class Arrayism {
     constructor() {
@@ -48,6 +51,9 @@ class Arrayism {
         this.getArrayInfo = getArrayInfo;
         this.flatten = flatten;
         this.random = random;
+        this.changeCase = changeCase;
+        this.walk = walk;
+        this.clear = clear;
     }
 }
 
