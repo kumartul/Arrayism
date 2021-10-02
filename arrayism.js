@@ -20,7 +20,8 @@ const flatten = require('./src/flat.js');
 const random = require('./src/random.js');
 const changeCase = require('./src/changeCase.js');
 const walk = require('./src/walk.js');
-const clear = require('./src/clear');
+const clear = require('./src/clear.js');
+const join = require('./src/join.js');
 
 class Arrayism {
     constructor() {
@@ -54,6 +55,8 @@ class Arrayism {
         this.changeCase = changeCase;
         this.walk = walk;
         this.clear = clear;
+        this.join = join.join;
+        this.joinDiff = join.joinDiff;
     }
 }
 
