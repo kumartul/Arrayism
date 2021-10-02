@@ -38,6 +38,8 @@ class Arrayism {
         this.product = math.product;
         this.quotient = math.quotient;
         this.average = math.average;
+        this.min = math.min;
+        this.max = math.max;
         this.nth = nth;
         this.getPiece = getPiece;
         this.shuffle = shuffle;
