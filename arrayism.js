@@ -25,6 +25,7 @@ const join = require('./src/join.js');
 const distance = require('./src/distance.js');
 const swap = require('./src/swap.js');
 const zipObj = require('./src/zipObj.js');
+const unzipObj = require('./src/unzipObj.js');
 
 class Arrayism {
     constructor() {
@@ -65,6 +66,7 @@ class Arrayism {
         this.distance = distance;
         this.swap = swap;
         this.zipObj = zipObj;
+        this.unzipObj = unzipObj;
     }
 }
 
