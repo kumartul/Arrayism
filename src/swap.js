@@ -18,3 +18,5 @@ function swap(array, elem1, elem2){
         throw TypeError("Failed to execute 'swap': First argument must be an array");
     }
 }
+
+module.exports = swap;
