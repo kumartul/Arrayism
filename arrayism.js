@@ -27,47 +27,33 @@ const swap = require('./src/swap.js');
 const zipObj = require('./src/zipObj.js');
 const unzipObj = require('./src/unzipObj.js');
 
-class Arrayism {
-    constructor() {
-        this.chunk = chunk;
-        this.clone = clone;
-        this.get = get;
-        this.clean = clean;
-        this.pollute = pollute;
-        this.unique = unique;
-        this.remove = remove.remove;
-        this.removeMany = remove.removeMany;
-        this.sum = math.sum;
-        this.difference = math.difference;
-        this.product = math.product;
-        this.quotient = math.quotient;
-        this.average = math.average;
-        this.min = math.min;
-        this.max = math.max;
-        this.nth = nth;
-        this.getPiece = getPiece;
-        this.shuffle = shuffle;
-        this.asort = sort.asort;
-        this.dsort = sort.dsort;
-        this.insertBefore = insert.insertBefore;
-        this.insertAfter = insert.insertAfter;
-        this.count = count;
-        this.type = type;
-        this.replace = replace;
-        this.filter = filter;
-        this.getArrayInfo = getArrayInfo;
-        this.flatten = flatten;
-        this.random = random;
-        this.changeCase = changeCase;
-        this.walk = walk;
-        this.clear = clear;
-        this.join = join.join;
-        this.joinDiff = join.joinDiff;
-        this.distance = distance;
-        this.swap = swap;
-        this.zipObj = zipObj;
-        this.unzipObj = unzipObj;
-    }
+module.exports = {
+    chunk,
+    clone,
+    get,
+    clean,
+    pollute,
+    unique,
+    remove,
+    math,
+    nth,
+    getPiece,
+    shuffle,
+    sort,
+    insert,
+    count,
+    type,
+    replace,
+    filter,
+    getArrayInfo,
+    flatten,
+    random,
+    changeCase,
+    walk,
+    clear,
+    join,
+    distance,
+    swap,
+    zipObj,
+    unzipObj
 }
-
-module.exports = Arrayism;
