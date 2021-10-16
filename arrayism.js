@@ -26,6 +26,7 @@ const distance = require('./src/distance.js');
 const swap = require('./src/swap.js');
 const zipObj = require('./src/zipObj.js');
 const unzipObj = require('./src/unzipObj.js');
+const dimension = require('./src/dimension.js');
 
 module.exports = {
     chunk,
@@ -55,5 +56,6 @@ module.exports = {
     distance,
     swap,
     zipObj,
-    unzipObj
+    unzipObj,
+    dimension
 }
