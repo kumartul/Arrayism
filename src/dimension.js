@@ -17,3 +17,5 @@ function dimension(array){
         throw new TypeError("Failed to execute 'dimension': Argument must be an array");
     }
 }
+
+module.exports = dimension;
