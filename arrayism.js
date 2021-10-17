@@ -1,6 +1,6 @@
 const chunk = require('./src/chunk.js');
 const clone = require('./src/clone.js');
-const get = require('./src/get.js');
+const getValues = require('./src/get.js');
 const clean = require('./src/clean.js');
 const pollute = require('./src/pollute.js');
 const unique = require('./src/unique.js');
@@ -31,7 +31,7 @@ const dimension = require('./src/dimension.js');
 module.exports = {
     chunk,
     clone,
-    get,
+    getValues,
     clean,
     pollute,
     unique,
