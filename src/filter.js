@@ -1,25 +1,24 @@
 // Function: Filters the array based on the data type
 function filter(array, dataType){
-    let filterArr = [...array];
+    let filteredArr = [...array];
     if(Array.isArray(array)){
-        console.log(dataType);
-        switch(dataType){
+        switch(dataType.toLowerCase()){
             case 'bigint':
-                return filterArr.filter(value => typeof value === 'bigint');
+                return filteredArr.filter(value => typeof value === 'bigint');
             case 'boolean':
-                return filterArr.filter(value => typeof value === 'boolean');
+                return filteredArr.filter(value => typeof value === 'boolean');
             case 'function':
-                return filterArr.filter(value => typeof value === 'function');
+                return filteredArr.filter(value => typeof value === 'function');
             case 'number':
-                return filterArr.filter(value => typeof value === 'number');
+                return filteredArr.filter(value => typeof value === 'number');
             case 'object':
-                return filterArr.filter(value => typeof value === 'object' && value !== null && !Array.isArray(value));
+                return filteredArr.filter(value => typeof value === 'object' && value !== null && !Array.isArray(value));
             case 'string':
-                return filterArr.filter(value => typeof value === 'string');
+                return filteredArr.filter(value => typeof value === 'string');
             case 'symbol':
-                return filterArr.filter(value => typeof value === 'symbol');
+                return filteredArr.filter(value => typeof value === 'symbol');
             case 'undefined':
-                return filterArr.filter(value => typeof value === 'undefined');
+                return filteredArr.filter(value => typeof value === 'undefined');
             default: 
                 throw new TypeError("Failed to execute 'filter': Invalid data type");
         }
