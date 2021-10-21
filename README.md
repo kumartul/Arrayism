@@ -9,7 +9,7 @@ npm install --save arrayism
 ```
 
 In Node.js:
-```bash
+```js
 const Arrayism = require('arrayism');
 ```
 
