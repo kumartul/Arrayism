@@ -13,7 +13,8 @@ For addition of more features or bugfixes or implementing faster algorithms, ple
 There are some conventions that I want to follow while contributing to this project:
 - **Spacing and Indentation:** Use tabs for indentation
 - **Naming**: Variable names must be self-explanatory. Try to avoid special characters while naming the variables
-- **Quotes**: You can use whatever you want :)
+- **Quotes**: Use double-quotes
 - **Comments**: Try to use single-line comments most of the times
+- **Semicolons**: Semicolons are a must
 
 **Note**: Try to write code in the latest version of JavaScript
