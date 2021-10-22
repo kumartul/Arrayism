@@ -1,0 +1,4 @@
+coverage/*
+.vscode/*
+docs/*
+node_modules/*
