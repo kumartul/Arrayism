@@ -1,5 +1,5 @@
-const clone = require('../../src/clone.js');
+const clone = require("../../src/clone.js");
 
-test('clones the array', () => {
+test("clones the array", () => {
     expect(clone([1, "Foo", 2.5, true, NaN])).toEqual([1, "Foo", 2.5, true, NaN]);
 });

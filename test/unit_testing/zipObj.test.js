@@ -1,6 +1,6 @@
-const zipObj = require('../../src/zipObj.js');
+const zipObj = require("../../src/zipObj.js");
 
-test('Zips the array in an object', () => {
+test("Zips the array in an object", () => {
     expect(zipObj(["A", "B"], ["Alpha", "Beta"])).toEqual({ "A": "Alpha", "B": "Beta" });
 });
 
