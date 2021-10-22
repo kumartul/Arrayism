@@ -8,7 +8,7 @@ function dimension(array){
                     dimension++;
                     iterate(ar);
                 }
-            })
+            });
         }
         iterate(array);
         return dimension;

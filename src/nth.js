@@ -1,4 +1,4 @@
-const is = require('./utils/is.js');
+const is = require("./utils/is.js");
 
 // Function: Returns the element at the nth index of an array
 // If n is negative, then the element from the last is returned

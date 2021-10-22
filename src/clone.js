@@ -4,7 +4,7 @@ function clone(array){
         return [...array];
     }
     else{
-        throw new TypeError("Failed to execute 'clone': Argument must be an array")
+        throw new TypeError("Failed to execute 'clone': Argument must be an array");
     }
 }
 

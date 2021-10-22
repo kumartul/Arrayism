@@ -15,17 +15,17 @@ function isNegative(value){
 
 // Function: Checks if the value is an object or not
 function isObj(value){
-    return typeof value === 'object' && typeof value !== 'function' && value !== null;
+    return typeof value === "object" && typeof value !== "function" && value !== null;
 }
 
 // Function: Checks if the value is a function or not
 function isFunc(value){
-    return typeof value === 'function';
+    return typeof value === "function";
 }
 
 // Function: Checks if the value is a string or not
 function isStr(value){
-    return typeof value === 'string';
+    return typeof value === "string";
 }
 
 // Function: Checks if the value is a decimal or not
@@ -35,7 +35,7 @@ function isDecimal(value){
 
 // Function: Checks if the value is a boolean or not
 function isBool(value){
-    return typeof value === 'boolean';
+    return typeof value === "boolean";
 }
 
 module.exports.isNumber = isNumber;

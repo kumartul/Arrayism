@@ -1,7 +1,7 @@
-const filter = require('./filter.js');
-const pollute = require('./pollute.js');
-const clean = require('./clean.js');
-const type = require('./type.js');
+const filter = require("./filter.js");
+const pollute = require("./pollute.js");
+const clean = require("./clean.js");
+const type = require("./type.js");
 
 // Function: Returns an object showing a detailed information about the array
 function getArrayInfo(array){
@@ -10,19 +10,19 @@ function getArrayInfo(array){
         const info = {
             length: copiedArr.length,
             dataTypeDistribution: {
-                BigInt: filter(copiedArr, 'bigint'),
-                Boolean: filter(copiedArr, 'boolean'),
-                Function: filter(copiedArr, 'function'),
-                Number: filter(copiedArr, 'number'),
-                Object: filter(copiedArr, 'object'),
-                String: filter(copiedArr, 'string'),
-                Symbol: filter(copiedArr, 'symbol'),
-                Undefined: filter(copiedArr, 'undefined'),
+                BigInt: filter(copiedArr, "bigint"),
+                Boolean: filter(copiedArr, "boolean"),
+                Function: filter(copiedArr, "function"),
+                Number: filter(copiedArr, "number"),
+                Object: filter(copiedArr, "object"),
+                String: filter(copiedArr, "string"),
+                Symbol: filter(copiedArr, "symbol"),
+                Undefined: filter(copiedArr, "undefined"),
                 falsyValues: pollute(copiedArr),
                 truthyValues: clean(copiedArr)
             },
             arrayType: type(copiedArr)
-        }
+        };
 
         return info;
     }

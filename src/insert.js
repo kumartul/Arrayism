@@ -6,7 +6,7 @@ function insertBefore(array, element, value){
             array.splice(elementIndex, 0, value);
         }
         else{
-            throw new RangeError(`Failed to execute 'insertBefore': The array doesn't contains ${element}`)
+            throw new RangeError(`Failed to execute 'insertBefore': The array doesn't contains ${element}`);
         }
     }
     else{
@@ -22,7 +22,7 @@ function insertAfter(array, element, value){
             array.splice(elementIndex, 0, value);
         }
         else{
-            throw new RangeError(`Failed to execute 'insertBefore': The array doesn't contains ${element}`)
+            throw new RangeError(`Failed to execute 'insertBefore': The array doesn't contains ${element}`);
         }
     }
     else{

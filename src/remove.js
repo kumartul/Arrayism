@@ -12,7 +12,7 @@ function remove(array, value, removeAll=true){
             }
         }
         else{
-            throw new RangeError(`Failed to execute 'remove': ${value} is not an element of the array passed as argument`)
+            throw new RangeError(`Failed to execute 'remove': ${value} is not an element of the array passed as argument`);
         }
     }
     else{
@@ -30,7 +30,7 @@ function removeMany(array, values){
         }
     }
     else{
-        throw new TypeError("Failed to execute 'removeMany': First argument must be an array")
+        throw new TypeError("Failed to execute 'removeMany': First argument must be an array");
     }
 }
 

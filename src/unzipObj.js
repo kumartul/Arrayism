@@ -1,4 +1,4 @@
-const is = require('./utils/is.js');
+const is = require("./utils/is.js");
 
 // Function: Unzips an object into an array
 function unzipObj(obj){
