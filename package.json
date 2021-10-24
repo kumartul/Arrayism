@@ -1,6 +1,6 @@
 {
   "name": "arrayism",
-  "version": "4.0.0",
+  "version": "4.0.9",
   "description": "Start to love arrays",
   "main": "arrayism.js",
   "scripts": {
