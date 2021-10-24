@@ -2,11 +2,11 @@
 function zipObj(keysArr, valuesArr){
     if(Array.isArray(keysArr) && Array.isArray(valuesArr)){
         let zippedObj = {};
-        
+
         for(let i = 0; i < keysArr.length; i++){
             zippedObj[keysArr[i]] = valuesArr[i];
         }
-        
+
         return zippedObj;
     }
     else{

@@ -5,7 +5,7 @@ function unzipObj(obj){
     if(is.isObj(obj)){
         let keysArr = [];
         let valuesArr = [];
-        
+
         const keys = Object.keys(obj);
         for(let i = 0; i < keys.length; i++){
             keysArr.push(keys[i]);
