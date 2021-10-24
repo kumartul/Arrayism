@@ -3,11 +3,11 @@ function replace(array, element, newElement, replaceAll=true){
     if(Array.isArray(array)){
         if(array.includes(element)){
             if(replaceAll){
-                for(let i = 0; i < array.length; i++){
-                    if(element === array[i]){
-                        array[i] = newElement;
+                array.map(elem => {
+                    if(elem === element){
+                        elem = newElement;
                     }
-                }
+                });
             }
             else{
                 array.splice(array.indexOf(element), 1, newElement);
