@@ -8,20 +8,20 @@ function type(array){
         if(set.size === 1){
             set = Array.from(set).toString();
             switch(set){
-            case "boolean":
-                return "Boolean Array";
-            case "number":
-                return "Number Array";
-            case "bigint":
-                return "Bigint Array";
-            case "undefined":
-                return "Undefined Array";
-            case "symbol":
-                return "Symbol Array";
-            case "object":
-                return "Object Array";
-            case "string":
-                return "String Array";
+                case "boolean":
+                    return "Boolean Array";
+                case "number":
+                    return "Number Array";
+                case "bigint":
+                    return "Bigint Array";
+                case "undefined":
+                    return "Undefined Array";
+                case "symbol":
+                    return "Symbol Array";
+                case "object":
+                    return "Object Array";
+                case "string":
+                    return "String Array";
             }
         }
         else{
