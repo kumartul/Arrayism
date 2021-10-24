@@ -11,11 +11,11 @@ function flatten(array, depth)
             return copiedArr;
         }
         else{
-            array.forEach(elem => {
-                if(Array.isArray(elem)){
+            for(let i = 0; i < copiedArr.length; i++){
+                if(Array.isArray(copiedArr[i])){
                     copiedArr = copiedArr.flat();
                 }
-            });
+            }
             return copiedArr;
         }
     }
