@@ -26,7 +26,7 @@ function changeCase(array, textCase){
                 }
             }
             return copiedArr;
-        default: 
+        default:
             throw new RangeError("Failed to execute 'changeCase': Invalid Case");
         }
     }
