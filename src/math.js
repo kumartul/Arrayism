@@ -36,10 +36,10 @@ function quotient(array){
     let copiedArr = [...array];
     if(Array.isArray(array)){
         return copiedArr.reduce((val1, val2) => val1 / val2);
-    }   
+    }
     else{
         throw new TypeError("Failed to execute 'quotient': Argument must be an array");
-    } 
+    }
 }
 
 // Function: Finds the average of all the values of the array
