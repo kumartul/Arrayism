@@ -25,8 +25,3 @@ npm test
 Detailed test cases can be found [here](https://github.com/Atul-Kumar-Official/Arrayism/tree/master/test/unit_testing)
 
 Feel free to fork this project from here: [Arrayism](https://github.com/Atul-Kumar-Official/Arrayism)
-
-## Note
-The documentation for arrayism will be available very soon and I will try to bring out the support for **web browsers** too very soon!!! 🎉
-
----
